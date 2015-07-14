@@ -83,6 +83,9 @@ compileJdk8Java {
 }
 
 dependencies {
+    jdk7Compile "co.paralleluniverse:quasar-core:$quasarVer"
+    jdk8Compile "co.paralleluniverse:quasar-core:$quasarVer:jdk8"
+
     provided "co.paralleluniverse:quasar-core:$quasarVer"
 
     testCompile "junit:junit:$junitVer"
